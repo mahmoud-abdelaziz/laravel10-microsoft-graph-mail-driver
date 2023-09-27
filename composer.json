@@ -1,0 +1,30 @@
+{
+    "version": "v10.0.0",
+    "name": "mz/laravel-microsoft-graph-mail-driver",
+    "type": "library",
+    "require-dev": {
+        "illuminate/http": "^10.x-dev",
+        "illuminate/support": "^10.x-dev",
+        "illuminate/mail": "^10.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mz\\LaravelMicrosoftGraphMailDriver\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahmoud Abdelaziz"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mz\\LaravelMicrosoftGraphMailDriver\\Providers\\LaravelMicrosoftGraphMailDriverServiceProvider",
+                "Mz\\LaravelMicrosoftGraphMailDriver\\Providers\\LaravelMicrosoftGraphMailDriverMailServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
