@@ -20,8 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mz\\LaravelMicrosoftGraphMailDriver\\Providers\\LaravelMicrosoftGraphMailDriverServiceProvider",
-                "Mz\\LaravelMicrosoftGraphMailDriver\\Providers\\LaravelMicrosoftGraphMailDriverMailServiceProvider"
+                "Mz\\LaravelMicrosoftGraphMailDriver\\Providers\\LaravelMicrosoftGraphMailDriverServiceProvider"
             ],
             "aliases": {
             }
