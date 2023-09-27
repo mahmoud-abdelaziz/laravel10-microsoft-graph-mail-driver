@@ -1,6 +1,6 @@
 {
     "version": "v10.0.0",
-    "name": "mz/laravel-microsoft-graph-mail-driver",
+    "name": "mz/laravel10-microsoft-graph-mail-driver",
     "type": "library",
     "require-dev": {
         "illuminate/http": "^10.x-dev",
